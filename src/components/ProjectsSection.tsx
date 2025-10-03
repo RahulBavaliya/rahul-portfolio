@@ -13,7 +13,7 @@ export function ProjectsSection() {
       icon: Wrench,
       color: "text-red-500",
       code: "https://github.com/RahulBavaliya/PlumbingProject",
-      preview: "https://rahulbavaliya.github.io/PlumbingProject/",
+      preview: "https://plumbing-project.vercel.app/",
     },
     {
       title: "RSA Token Generator",
@@ -97,7 +97,7 @@ export function ProjectsSection() {
                         onClick={() => window.open(project.preview, "_blank")}
                       >
                         <ExternalLink className="mr-2 h-4 w-4" />
-                        Demo
+                        Preview
                       </Button>
                     </div>
                   </CardContent>
