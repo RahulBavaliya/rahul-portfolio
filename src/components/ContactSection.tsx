@@ -15,6 +15,7 @@ import {
   Linkedin,
   Github,
   Slack, 
+  MessagesSquare 
 } from "lucide-react";
 import { useState } from "react";
 
@@ -133,7 +134,7 @@ export function ContactSection() {
                     <Button
                       variant="outline"
                       size="icon"
-                      className="hover:bg-blue-100 dark:hover:bg-blue-900"
+                      className="hover:bg-gray-100 dark:hover:bg-gray-800"
                       onClick={() => window.open("https://www.linkedin.com/in/rahul-bavaliya-302467123", "_blank")}
                     >
                       <Linkedin className="h-5 w-5 text-blue-600" />
@@ -152,7 +153,15 @@ export function ContactSection() {
                       className="hover:bg-gray-100 dark:hover:bg-gray-800"
                       onClick={() => window.open("https://stackoverflow.com/users/6672088/rahul-bavaliya", "_blank")}
                     >
-                      <Slack className="h-5 w-5" />
+                      <Slack className="h-5 w-5 text-orange-600" />
+                    </Button>
+                    <Button
+                      variant="outline"
+                      size="icon"
+                      className="hover:bg-gray-100 dark:hover:bg-gray-800"
+                      onClick={() => window.open("https://wa.me/917046504657?text=Hi%20Rahul!%20I%20came%20across%20your%20portfolio%20and%20was%20really%20impressed.%20I%E2%80%99d%20like%20to%20connect.", "_blank")}
+                    >
+                      <MessagesSquare className="h-5 w-5 text-green-600" />
                     </Button>
                   </div>
                 </CardContent>

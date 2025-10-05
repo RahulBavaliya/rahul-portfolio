@@ -6,7 +6,7 @@ export function Footer() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2 text-muted-foreground">
-            <span>© 2025 Rahul Bavaliya. Built with</span>
+            <span>© 2025 Rahul Bavaliya Built with</span>
             <Heart className="h-4 w-4 text-red-500 fill-current" />
             <span>and React</span>
           </div>

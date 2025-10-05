@@ -9,6 +9,7 @@ import { CertificationsSection } from './components/CertificationsSection';
 import { EducationSection } from './components/EducationSection';
 import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
+import { WhatsAppButton } from './components/WhatsAppButton';
 
 export default function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -44,6 +45,7 @@ export default function App() {
         <ContactSection />
       </main>
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 }

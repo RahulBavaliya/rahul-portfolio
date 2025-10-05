@@ -50,13 +50,13 @@ export function HeroSection() {
               Rahul Bavaliya
             </h1>
             <h2 className="text-xl sm:text-2xl text-muted-foreground mb-4">
-              AI Generalist | Full Stack Developer | Aspiring Tech Innovator
+              AI Enthusiast | Full Stack Developer | Aspiring Tech Innovator
             </h2>
           </div>
 
           {/* Tagline */}
           <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto mb-8 leading-relaxed">
-            Blending AI research, full stack development, and problem-solving to create impactful solutions.
+            Transforming ideas into reality by merging AI insights with full stack development and innovative problem-solving.
           </p>
 
           {/* Call-to-action Buttons */}

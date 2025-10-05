@@ -760,6 +760,7 @@
 
   .animate-bounce {
     animation: var(--animate-bounce);
+    cursor: pointer;
   }
 
   .animate-pulse {
@@ -1336,6 +1337,10 @@
     color: var(--color-orange-500);
   }
 
+  .text-orange-600 {
+    color: var(--color-orange-600);
+  }
+
   .text-primary {
     color: var(--primary);
   }
@@ -1508,12 +1513,14 @@
   @media (hover: hover) {
     .hover\:bg-accent:hover {
       background-color: var(--accent);
+      cursor: pointer;
     }
   }
 
   @media (hover: hover) {
     .hover\:bg-blue-100:hover {
       background-color: var(--color-blue-100);
+      cursor: pointer;
     }
   }
 
@@ -1538,6 +1545,7 @@
   @media (hover: hover) {
     .hover\:bg-gray-100:hover {
       background-color: var(--color-gray-100);
+      cursor: pointer;
     }
   }
 
@@ -1612,6 +1620,7 @@
   @media (hover: hover) {
     .hover\:text-foreground:hover {
       color: var(--foreground);
+      cursor: pointer;
     }
   }
 
@@ -2458,4 +2467,16 @@ html {
     animation-timing-function: cubic-bezier(0, 0, .2, 1);
     transform: none;
   }
+}
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-float {
+  animation: float 2s ease-in-out infinite;
 }
