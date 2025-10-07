@@ -2,9 +2,10 @@
   import { defineConfig } from 'vite';
   import react from '@vitejs/plugin-react-swc';
   import path from 'path';
+import pkg from './package.json' assert { type: 'json' }
 
   export default defineConfig({
-    base: process.env.VERCEL ? '/' : '/rahul-portfolio/',
+    base: process.env.VERCEL ? '/' : `/${pkg.name}/`,
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
