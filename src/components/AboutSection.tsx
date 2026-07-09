@@ -16,7 +16,7 @@ export function AboutSection() {
           <Card className="shadow-lg hover:shadow-xl transition-shadow duration-300">
             <CardContent className="p-8">
               <p className="text-lg leading-relaxed text-muted-foreground">
-                Full-Stack Developer with <span className="text-foreground font-medium">4+ years of experience </span> 
+                Full-Stack Developer with <span className="text-foreground font-medium">5+ years of experience </span> 
                 in building and deploying scalable web applications. Skilled in 
                 <span className="text-foreground font-medium"> Angular, Vue.js, .NET, SQL databases</span>, 
                 and experienced with <span className="text-foreground font-medium">CI/CD pipelines and server management</span>. 
